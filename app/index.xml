@@ -1,13 +1,7 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd">
-  <StackLayout orientation="vertical">
-    <StackLayout>
-      <Label text="Caixa de texto 1:" />
-      <TextField hint="V1" />
-    </StackLayout>
-    <StackLayout height="30"/>
-    <StackLayout>
-      <Label text="Caixa de tddddexto 225xxx55222:" />
-      <TextField hint="Digite algo na segunda caixa" />
-    </StackLayout>
+<Page loaded="pageLoaded">
+  <StackLayout>
+    <TextField id="myTextField" hint="Digite sua pergunta aqui" />
+    <Button id="sendButton" text="Enviar" />
+    <TextField id="responseLabel" text="{{ response }}" editable="false" />
   </StackLayout>
 </Page>
