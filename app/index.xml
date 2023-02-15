@@ -2,6 +2,6 @@
   <StackLayout>
     <TextField id="myTextField" hint="Digite sua pergunta aqui" />
     <Button id="sendButton" text="Enviar" />
-    <TextField id="responseLabel" text="Fred" editable="false" /> 
+    <TextField id="responseLabel" text="{{ response }}" editable="false" />
   </StackLayout>
 </Page>
